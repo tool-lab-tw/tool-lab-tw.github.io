@@ -82,13 +82,13 @@
           <p class="text-xs sm:text-sm text-slate-500 mt-0.5">點選卡片即可開啟對應工具，所有試算均在你的瀏覽器本機完成</p>
         </div>
         <div class="inline-flex bg-slate-200/70 p-1 rounded-xl text-xs font-semibold" role="group" aria-label="工具分類篩選">
-          <button type="button" data-filter="all" class="filter-btn px-3 py-1.5 rounded-lg bg-white text-slate-900 shadow-sm transition-all">全部 (3)</button>
+          <button type="button" data-filter="all" class="filter-btn px-3 py-1.5 rounded-lg bg-white text-slate-900 shadow-sm transition-all">全部 (4)</button>
           <button type="button" data-filter="travel" class="filter-btn px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 transition-all">旅遊出國</button>
           <button type="button" data-filter="finance" class="filter-btn px-3 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 transition-all">投資理財</button>
         </div>
       </div>
 
-      <div id="tool-grid" class="grid grid-cols-1 md:grid-cols-3 gap-5">
+      <div id="tool-grid" class="grid grid-cols-1 md:grid-cols-2 gap-5">
 
         <!-- Tool 1: JP/KR Travel -->
         <a href="https://tool-lab-tw.github.io/jp-calc/" target="_blank" rel="noopener noreferrer" data-tags="travel"
@@ -135,6 +135,32 @@
             </div>
           </div>
           <div class="mt-5 pt-3.5 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-emerald-600">
+            <span>立即免費試算</span>
+            <span class="group-hover:translate-x-0.5 transition-transform">開啟工具 →</span>
+          </div>
+        </a>
+
+        <!-- Tool 4: LCC Baggage -->
+        <a href="https://tool-lab-tw.github.io/baggage-calc/" target="_blank" rel="noopener noreferrer" data-tags="travel"
+          class="tool-card bg-white rounded-2xl border border-slate-200 hover:border-amber-400 hover:shadow-md p-5 flex flex-col justify-between transition-all group">
+          <div class="space-y-3.5">
+            <div class="flex items-center justify-between gap-2">
+              <div class="w-10 h-10 rounded-xl bg-amber-600 text-white flex items-center justify-center shadow-sm">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="6" y="7" width="12" height="13" rx="2" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 7V5a2 2 0 012-2h2a2 2 0 012 2v2M9 20v1M15 20v1" />
+                </svg>
+              </div>
+              <span class="px-2.5 py-0.5 rounded-full bg-amber-50 text-amber-700 text-[11px] font-bold">旅遊出國</span>
+            </div>
+            <div>
+              <h3 class="text-base font-bold text-slate-900 group-hover:text-amber-700 transition-colors">日韓廉航行李尺寸＆超重試算器</h3>
+              <p class="text-xs sm:text-sm text-slate-500 mt-1.5 leading-relaxed">
+                涵蓋虎航、樂桃、酷航、捷星、濟州、德威（泰瑞）航空最新規範，1 秒檢測登機箱尺寸重量與託運伴手禮超重風險。
+              </p>
+            </div>
+          </div>
+          <div class="mt-5 pt-3.5 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-amber-600">
             <span>立即免費試算</span>
             <span class="group-hover:translate-x-0.5 transition-transform">開啟工具 →</span>
           </div>
